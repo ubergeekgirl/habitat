@@ -28,7 +28,7 @@ using the `--bind` parameter to the supervisor, for example:
 
 which would bind `backend` to the `example-services` service group.
 
-You can declare bindings to multiple service groups in your templates. The arguments to `--bind` are separated by commas.
+You can declare bindings to multiple service groups in your templates by using the `--bind` option multiple times on the command line.
 
 The supervisor will throw an error if you have declared bindings but failed to resolve all of them with `--bind` when starting the package.
 
